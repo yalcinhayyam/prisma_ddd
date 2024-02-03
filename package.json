@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "@prisma/client": "5.9.0",
+    "prisma": "^5.9.0",
+    "uuid": "^9.0.1"
+  },
+  "name": "prisma_ddd",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon --exec ts-node index.ts"
+  },
+  "devDependencies": {
+    "@types/uuid": "^9.0.8"
+  }
+}
